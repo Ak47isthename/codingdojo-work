@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(5, 5, 5, .95);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    margin-left: 300px;
+
+}
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+li {
+    margin-left: 40px;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+button{
+    width: 100px;
+    margin-left: 300px;
+    float: right;
+    background-color: rgb(182, 173, 149);
+    border: 3px solid rgb(230, 219, 219);
+    box-shadow: 2px 2px 1px 1px rgb(255, 253, 253);
+}
+button:hover {
+    transform: scale(.9);
+}
+.profile {
+    width: 40%;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: rgb(231, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 1px 3px 1px black;
+}
+p {
+    position: absolute;
+    width: 40%;
+    border-radius: 5px;
+    height: 80px;
+    margin-top: -340px;
+    background-color: rgb(0, 255, 255);
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me {
+    position: absolute;
+    height: 130px;
+    margin-top: -190px;
+    margin-left: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.name {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: -42px;
+    color: black;
+}
+.map {
+    position: absolute;
+    display: flex;
+}
+.map-nav {
+position: absolute;
+    height: 23px;
+    margin-left: -55px;
+    margin-top: 10px;
+    color: white;
+}
+h2 {
+    margin-left: 55px;
+    margin-top: 10px;
+    color:  rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+.things {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -100px;
+    margin-left: 0px;
+    position: absolute;
+}
+h4 {
+    font-size: 19px;
+    margin-left: 10px
+}
+.setting {
+position: absolute;
+margin-top: 250px;
+margin-left: 20px;
+}
+.menu {
+    height: 30px;
+
+}
+
+.edit {
+    color: rgb(29, 128, 221);
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: underline;
+
+}
+.people {
+position: absolute;
+    width: 20%;
+    height: 20em;
+    background-color: rgb(231, 233, 233);
+    margin-left: 75em;
+    margin-top: -410px;
+    border-radius: 5px;
+    box-shadow: 3px 1px 1px 2px black;
+}
+.list{
+    width: 100%;
+    height: 50px;
+position: absolute;
+margin-top: 0px;
+font-size: 30px;
+background-color: rgb(0, 255, 255);
+}
+.two {
+    margin-left: 20px;
+    font-size: 30px;
+}
+span {
+    margin-top: 10px;
+    margin-left: 20px;
+color: rgb(0, 0, 0);
+}
+.list-1{
+    display: flex;
+}
+.todd:hover {
+    background-color: black;
+}
+.todd {
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.accept {
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.accept:hover{
+    background-color: rgb(81, 168, 81);
+}
+.accept-1 {
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.accept-1:hover {
+    background-color: red;
+}
+h6 {
+
+    font-size: 20px;
+    margin-left: 136px;
+    margin-top: -75px;
+    color: black;
+}
+.list-2 {
+    display: flex;
+}
+.phil {
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.phil:hover {
+    background-color: black;
+}
+.accept-2 {
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.accept-2:hover{
+    background-color: rgb(81, 168, 81);;
+}
+.accept-3{
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.accept-3:hover {
+    background-color: red;
+}
+h5 {
+    font-size: 20px;
+    margin-left: 136px;
+    margin-top: -75px;
+    color: black;
+}
+.conatiner {
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 1px 2px 1px black;
+    background-color:  rgb(231, 233, 233);
+}
+.class {
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 30px; 
+}
+.item {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -245px;
+}
+.coding {
+    color: black;
+}
+.date {
+    margin-left: 300px;
+    margin-top: 10px;
+    color: gray
+}
+.contact {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+}
+.nav-1 {
+    position: absolute;
+    text-align: center;
+    margin-left: 950pt;
+    margin-top: 300px;
+    width: 100%;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.number-2{
+    width: 100%;
+    overflow:scroll;
+    height: 25em;
+    background-color: rgb(231, 233, 233);
+    position: absolute;
+    margin-left: 74em;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 1px 1px 3px black;
+}
+img {
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+img:hover {
+    background-color:  black;
+}
+.person-1 {
+    margin-left: 120px;
+    margin-top: -50px;
+    color: black;
+}
+.person-2 {
+    
+    margin-left: 120px;
+    margin-top: -50px;
+    color: black;
+}
+.person-3{
+    margin-left: 120px;
+    margin-top: -50px;
+    color: black;
+}
+.person-4 {
+    margin-left: 120px;
+    margin-top: -50px;
+    color: black;
+}
+.person-5 {
+    margin-left: 120px;
+    margin-top: -50px;
+    color: black;
+}
+.more {
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: rgb(214, 223, 222);
+    margin-left: 74em;
+    margin-top: 365px;
+}
+.view {
+color:rgb(29, 128, 221);
+
+    margin-left: 40px;
+    padding-left: 20px;text-align: center;
+}

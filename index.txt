@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" type="fav-icon" 32*32 href="image/profile.icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>Profile</h1>
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">My Profile</a></li>
+    <li><a href="#">Find Connection</a></li>
+    <button>Sign Out</button>
+</ul>
+    </div>
+    <div class="profile">
+        <p></p>
+        <div class="img-nav">
+            <img class="me" src="image/profile.png">
+            <h1 class="name">Awet Kidanemariam</h1>
+        </div>
+        <div class="map">
+            <img class="map-nav" src="image/map.png">
+            <h2>Idaho</h2>
+        </div>
+        <div class="things">
+            <h4>Web Developer</h4>
+            <h4>Engineer</h4>
+            <h4>Problem slover</h4>
+        </div>
+        <div class="setting">
+            <img class="menu" src="image/setting.png">
+            <a class="edit" href="#">edit profile</a>
+        </div>
+    </div>
+    <div class="people">
+        <p class="list"><span class="two">2</span><span>Conncetion Request</span> </p>
+<div class="list-1">
+    <a href="#"><img class="todd" src="image/todd-s.jpg"> <h6>Todd E</h6></a>
+    
+    <img class="accept" src="image/accept-circle.png">
+    <img class="accept-1" src="image/close-circle.png">
+</div>
+<div class="list-2">
+    <a href="#"><img class="phil" src="image/phil-s.jpg"><h5>Phill K </h5> </a>
+    <img class="accept-2" src="image/accept-circle.png">
+    <img class="accept-3"src="image/close-circle.png">
+</div>
+    </div>
+    
+    <div class="conatiner">
+        <p class="class">Education</p>
+        <div class="item">
+            <h1 class="coding">Coding Dojo - Full Stack Bootcamp</h1>
+            <h3 class="date">March 2022 - July 2022</h3>
+        
+        </div>
+    </div>
+    <div class="contact">
+        <div class="nav-1">
+            <p><span>5000+</span>
+                <br>Your Connection</p>
+        </div>
+        <div class="number-2">
+            <a href="#"><img src="image/adrien-s.jpg"><h3 class="person-1">Adrien D</h3></h3></a>
+            <a href="#"><img src="image/anne-s.jpg" ><h3 class="person-2">Anne J</h3></a>
+            <a href=" #"><img src="image/alayne-s.jpg"><h3 class="person-3">Alayne T</h3> </a>
+            <a href="#"><img src="image/arry-s.jpg"><h3 class="person-4">Arry Y</h3> </a>
+            <a href="#"><img src="image/jane-m.jpg"><h3 class="person-5">Jane M</h3> </a>
+        </div>
+        <div class="more">
+        <a class="View" href="#">View More</a>
+            </div>
+    </div>
+</body>
+</html>
